@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
-import { Navigate, useLocation } from "react-router-dom";
-import { RootState } from "../store/rootReducer"; // Assuming RootState is the type of your Redux store's root state
+// import { Navigate, useLocation } from "react-router-dom";
+// import { RootState } from "../store/rootReducer"; // Assuming RootState is the type of your Redux store's root state
 
 interface PrivateRouteProps {
   children: React.ReactNode;
